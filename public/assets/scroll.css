@@ -1,0 +1,61 @@
+.container {
+        width: 1200px;
+        height: 500px;
+        background-color: #ddd;
+        overflow: auto;
+        border: 1px solid #ccc;
+    }
+
+    table {
+        table-layout: fixed;
+        width: 100%;
+        overflow-x: scroll;
+        border-collapse: collapse;
+    }
+
+    td,
+    th {
+        border: 1px solid #000000;
+    }
+
+    th {
+        font-weight: 600;
+        text-align: left;
+        background-color: #f1f4f7;
+    }
+
+    .fixed-td1 {
+        position: sticky;
+        width: 50px;
+        z-index: 2;
+        left: 0;
+        background-color: #fff;
+    }
+
+    .fixed-td {
+        position: sticky;
+        width: 300px;
+        z-index: 2;
+        left: 0;
+        background-color: #fff;
+    }
+
+    .fixed-hd {
+        position: sticky;
+        top: 0;
+        z-index: 2;
+    }
+    
+    .fixed-hd2 {
+        position: sticky;
+        top: 0;
+        z-index: 2;
+    }
+
+    .left-top-td {
+        z-index: 3;
+    }
+
+    .scrollable-td {
+        width: 800px;
+    }
